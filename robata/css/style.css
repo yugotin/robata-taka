@@ -1,0 +1,287 @@
+header{
+    background-color: rgb(42, 42, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*       左右　上下 */
+    padding: 14px 40px;
+}
+
+.logo{
+    font-size: 36px;
+    color: white;
+    /* google fontを使う */
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+}
+
+.nav{
+    display: flex;
+}
+
+.photo-logo{
+    margin: 0 20px;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.photo-logo:hover{
+    opacity: 0.8;
+}
+
+.question-logo{
+    margin: 0 20px;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.question-logo:hover{
+    opacity: 0.8;
+}
+
+.nav > li > a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.photo-main{
+    background-image: url("../img/taka8000.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+/* 活造のところ */
+.adenda1{
+    font-size: 40px;
+    color: rgb(148, 141, 141);
+    font-family: 'Noto Serif JP', serif;
+}
+
+.container1{
+    margin: 50px 0;
+}
+
+.container1-up{
+    margin-top: 30px;
+}
+
+.adenda1{
+    text-align: center;
+ }
+ 
+ .container1-up{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+
+ .content-right1{
+     width: 50%;
+ }
+
+ .content-left1{
+     margin: 0 20px;
+     font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .message{
+     display: inline-block;
+     text-align: center;
+     font-size: 25px;
+ }
+ 
+ /* 空間のところ */
+.adenda2{
+    font-size: 40px;
+    color: rgb(148, 141, 141);
+    font-family: 'Noto Serif JP', serif;
+}
+
+.container2-down{
+    margin-top: 30px;
+}
+
+ .adenda2{
+     text-align: center;
+  }
+
+  .container2-down{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-left2{
+    width: 50%;
+}
+
+.content-right2{
+    margin: 0 20px;
+    font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 40px;
+}
+
+/* 日本酒にのところ */
+.container3{
+    background-image: url("../img/taka_sake.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adenda3{
+    font-size: 200px;
+}
+
+/* メニュー一覧 */
+.menu1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    width: 100vw;
+    /* 要素のサイズを指定しなかったらできなかった */
+}
+
+/* .menu1-right{
+    margin-left: 200px;
+}
+
+.menu2-left{
+    margin-left: 200px;
+}
+
+.menu2-right{
+    margin-left: 200px;
+} */
+
+/* お品書きのところ */
+.adenda3{
+     font-size: 40px;
+     color: rgb(148, 141, 141);
+     font-family: 'Noto Serif JP', serif;
+}
+
+.sashimi ,.robata ,.ippin ,.drink{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Noto Serif JP', serif;
+    text-decoration: none;
+}
+
+.menu1-left{
+    background-image: url(../img/taka_sashimi1.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.menu1-left:hover{
+    opacity: 0.8;
+}
+
+.menu1-right{
+    background-image: url(../img/taka_yaki1.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.menu1-right:hover{
+    opacity: 0.8;
+}
+
+.menu2-left{
+    background-image: url(../img/taka_ippin.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.menu2-left:hover{
+    opacity: 0.8;
+}
+
+.menu2-right{
+    background-image: url(../img/taka_drink.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.menu2-right:hover{
+    opacity: 0.8;
+}
+
+/* フッター */
+footer{
+    background-color: rgb(51, 51, 155);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.footer-content > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.form,.insta{
+    margin-left: 80px;
+}
+
+.access{
+    color:white;
+    margin: 5px 0 5px 0;
+}
+
+
+
+
+
+
+
+
