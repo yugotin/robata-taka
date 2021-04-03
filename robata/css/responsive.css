@@ -1,0 +1,111 @@
+@media (max-width: 780px){
+    
+    .menu1-left{
+        width:100%;
+    }
+
+    .menu1-right{
+        width:100%;
+    }
+
+    .menu2-left{
+        width:100%;
+    }
+
+    .menu2-right{
+        width:100%;
+    }
+
+    .content-left1{
+        width: 100%;
+    }
+
+    .content-right1{
+        width: 100%;
+    }
+
+    .content-left2{
+        width: 100%;
+    }
+
+    .content-right2{
+        width: 100%;
+    }
+
+    .footer-left{
+        width: 100%;
+    }
+
+    .footer-right{
+        width: 100%;
+    }
+
+    .reservation{
+        width: 33%;
+    }
+
+    .form{
+        width: 33%;
+    }
+
+    .insta{
+        width: 33%;
+    }
+}
+/*スマートフォン用*/
+
+@media (max-width: 1000px){
+    .menu1-left{
+        width:50%;
+    }
+
+    .menu1-right{
+        width:50%;
+    }
+
+    .menu2-left{
+        width:50%;
+    }
+
+    .menu2-right{
+        width:50%;
+    }
+
+    .content-left1{
+        width: 50%;
+    }
+
+    .content-right1{
+        width: 50%;
+    }
+
+    .content-left2{
+        width: 50%;
+    }
+
+    .content-right2{
+        width: 50%;
+    }
+
+    .footer-left{
+        width: 100%;
+    }
+
+    .footer-right{
+        width: 100%;
+    }
+
+    .reservation{
+        width: 33%;
+    }
+
+    .form{
+        width: 33%;
+    }
+
+    .insta{
+        width: 33%;
+    }
+}
+
+/*タブレット用*/
